@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone X Pro",
+    "price": 5000000,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&h=300&fit=crop",
+    "description": "Smartphone flagship dengan kamera 108MP, baterai 5000mAh tahan seharian penuh.",
+    "category": "Smartphone",
+    "stock": 15,
+    "specs": ["Layar 6.7\" AMOLED 120Hz", "Snapdragon 888", "RAM 12GB", "Storage 256GB", "Kamera 108MP + 12MP + 8MP"]
+  },
+  {
+    "id": 2,
+    "name": "Laptop Gaming Predator",
+    "price": 15000000,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=300&fit=crop",
+    "description": "Laptop gaming dengan GPU RTX 4060, cocok untuk gaming dan rendering 3D.",
+    "category": "Laptop",
+    "stock": 8,
+    "specs": ["Layar 15.6\" FHD 144Hz", "Intel Core i7-13700H", "RTX 4060 8GB", "RAM 16GB DDR5", "SSD 1TB NVMe"]
+  },
+  {
+    "id": 3,
+    "name": "Smart TV 55\" 4K UHD",
+    "price": 7000000,
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=300&fit=crop",
+    "description": "Smart TV dengan resolusi 4K UHD, Google TV built-in, dan Dolby Vision.",
+    "category": "TV",
+    "stock": 10,
+    "specs": ["Layar 55\" 4K UHD", "Google TV", "Dolby Vision & Atmos", "4x HDMI 2.1", "Voice Assistant"]
+  },
+  {
+    "id": 4,
+    "name": "Headphone Wireless Pro",
+    "price": 1500000,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
+    "description": "Headphone dengan active noise cancelling, baterai 30 jam, dan kualitas audio Hi-Res.",
+    "category": "Audio",
+    "stock": 25,
+    "specs": ["Active Noise Cancelling", "Baterai 30 jam", "Bluetooth 5.3", "IPX4 Water Resistant", "40mm Drivers"]
+  },
+  {
+    "id": 5,
+    "name": "Smartwatch Pro Series",
+    "price": 2500000,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop",
+    "description": "Smartwatch dengan EKG monitoring, GPS built-in, dan 100+ mode olahraga.",
+    "category": "Wearable",
+    "stock": 20,
+    "specs": ["AMOLED 1.78\"", "EKG & SpO2 Monitor", "GPS + GLONASS", "Baterai 7 hari", "Waterproof 5ATM"]
+  },
+  {
+    "id": 6,
+    "name": "Tablet Android Pro",
+    "price": 4000000,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=300&fit=crop",
+    "description": "Tablet performa tinggi dengan S-Pen included, cocok untuk produktivitas dan kreativitas.",
+    "category": "Tablet",
+    "stock": 12,
+    "specs": ["Layar 11\" 2K 120Hz", "Snapdragon 870", "RAM 8GB", "Storage 256GB", "S-Pen Included"]
+  },
+  {
+    "id": 7,
+    "name": "Camera Mirrorless Alpha",
+    "price": 12000000,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=300&fit=crop",
+    "description": "Kamera mirrorless 24MP dengan video 4K 60fps, cocok untuk fotografi profesional.",
+    "category": "Camera",
+    "stock": 7,
+    "specs": ["Sensor 24MP APS-C", "Video 4K 60fps", "5-axis Stabilization", "Lensa Kit 18-55mm", "WiFi/Bluetooth"]
+  },
+  {
+    "id": 8,
+    "name": "Speaker Bluetooth JBL",
+    "price": 800000,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=300&fit=crop",
+    "description": "Speaker portable waterproof dengan bass boosted, tahan air dan debu.",
+    "category": "Audio",
+    "stock": 30,
+    "specs": ["IP67 Waterproof", "Baterai 20 jam", "Party Mode (sambung 100+ speaker)", "Bass Boost", "Bluetooth 5.0"]
+  },
+  {
+    "id": 9,
+    "name": "Monitor Gaming 144Hz",
+    "price": 3500000,
+    "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=400&h=300&fit=crop",
+    "description": "Monitor gaming IPS 144Hz dengan response time 1ms, AMD FreeSync Premium.",
+    "category": "Monitor",
+    "stock": 10,
+    "specs": ["Layar 27\" IPS", "Refresh Rate 144Hz", "Response Time 1ms", "AMD FreeSync Premium", "HDR10"]
+  },
+  {
+    "id": 10,
+    "name": "Keyboard Mechanical RGB",
+    "price": 1200000,
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&h=300&fit=crop",
+    "description": "Keyboard mechanical dengan switch blue, RGB customizable, dan aluminum frame.",
+    "category": "Accessories",
+    "stock": 40,
+    "specs": ["Mechanical Blue Switch", "RGB 16.8 juta warna", "Anti-Ghosting N-Key", "Aluminum Frame", "Detachable USB-C"]
+  },
+  {
+    "id": 11,
+    "name": "Smartphone Lite Edition",
+    "price": 3000000,
+    "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=400&h=300&fit=crop",
+    "description": "Smartphone entry level dengan performa baik, baterai besar, dan kamera ganda.",
+    "category": "Smartphone",
+    "stock": 20,
+    "specs": ["Layar 6.5\" LCD 90Hz", "Snapdragon 680", "RAM 8GB", "Storage 128GB", "Baterai 5000mAh"]
+  },
+  {
+    "id": 12,
+    "name": "Laptop Ultrabook Zen",
+    "price": 12000000,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop",
+    "description": "Laptop ultraportable dengan layar touchscreen, ringan, dan baterai tahan lama.",
+    "category": "Laptop",
+    "stock": 6,
+    "specs": ["Layar 14\" Touch 2.8K", "Intel Core i5-1340P", "RAM 16GB LPDDR5", "SSD 512GB", "Baterai 12 jam"]
+  }
+]

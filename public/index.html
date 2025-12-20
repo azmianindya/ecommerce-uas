@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TechStyle - Toko Online Elektronik">
+    <meta name="keywords" content="e-commerce, elektronik, toko online, react">
+    <title>TechStyle - Toko Online Elektronik</title>
+    
+    <!-- Redirect jika ada path yang salah -->
+    <script>
+      if (window.location.pathname !== '/ecommerce-uas/' && window.location.pathname !== '/') {
+        window.history.replaceState({}, '', '/ecommerce-uas/');
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
