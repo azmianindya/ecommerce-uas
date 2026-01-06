@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useAuth } from './AuthContext';
 
 const Header = ({ cartItems }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const { user, isAdmin, logout } = useAuth();
   
   const cartItemCount = cartItems.reduce((total, item) => total + item.quantity, 0);
+
+  // Jangan tampilkan header untuk admin dashboard
+  const isAdminDashboard = location.pathname.startsWith('/admin-dashboard');
+  if (isAdminDashboard) {
+    return null; // Header tidak ditampilkan di admin dashboard
+  }
 
   return (
     <header className="header">
@@ -54,6 +62,27 @@ const Header = ({ cartItems }) => {
                 <span className="cart-badge">{cartItemCount}</span>
               )}
             </Link>
+            {user ? (
+              <>
+                {/* HAPUS LINK ADMIN DASHBOARD DARI SINI */}
+                <button 
+                  className="nav-link logout-btn" 
+                  onClick={() => { logout(); setIsMenuOpen(false); }}
+                >
+                  Logout ({user.username})
+                </button>
+              </>
+            ) : (
+              <>
+                <Link 
+                  to="/login" 
+                  className={`nav-link ${location.pathname === '/login' ? 'active' : ''}`}
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Login
+                </Link>
+              </>
+            )}
           </nav>
         </div>
       </div>
